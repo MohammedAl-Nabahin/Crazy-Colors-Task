@@ -1,0 +1,109 @@
+/* Global Style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 46, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+/* Global Style  End*/
+
+
+/* Header */
+.header{
+    position: fixed;
+    padding: 40px;
+    background-color: rgb(117, 117, 247);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+/* Header End */
+
+
+/* Main */
+main{
+    margin: auto;
+    margin-top: 35vh;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Left Side Of the Main */
+#paintMe{
+    display: flex;
+    background-color: darkgray;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    padding: 120px 90px;
+}
+
+#paintMe span{
+    align-self: center;
+    font-weight: bold;
+}
+/* Left Side End */
+
+
+/* Right Side Of the Main */
+#data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.8em;
+}
+
+
+#choose{
+    padding: 15px;
+    background-color: white;
+    color: rgb(22, 91, 165);
+    font-size: 0.8em;
+    border: none;
+}
+
+#choose:hover{
+    background-color: rgb(22, 91, 165);
+    color:white;
+    cursor: pointer;
+}
+
+#or{
+    color: white;
+}
+
+.typeHex{
+    color:rgb(22, 175, 157);
+}
+
+input{
+    padding: 11px;
+    width: 20em;
+    height: 3em;
+    color:rgb(19, 102, 92);
+    font-size: 0.58em;
+    font-weight: bold;
+}
+
+input:focus{
+    outline-color: #2865a7;
+}
+/* Right Side End*/
+
+/* Main End */
+
